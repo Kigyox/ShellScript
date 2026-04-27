@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Di la ruta a la cual quieres acceder: "
 read ruta
+
 # Comprovem si la variable es buida
 if [ -z "$ruta" ]; then
     echo "Error: No has introduït cap ruta"
